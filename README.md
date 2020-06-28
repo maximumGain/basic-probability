@@ -1,9 +1,9 @@
 # basic-probability
 Matlab source code for basic probability used in information theory.
 Static methods are defined in a class named 'probabilityTool'. 
-Simply call a function in this class by probabilityTool.<functionname>.
+Simply call a function in this class by probabilityTool.FunctionName.
 All methods provides default input for computation.   
-Your inputs are collected using <varargin>.
+Your inputs are collected using varargin.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Example:
