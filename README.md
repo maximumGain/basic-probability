@@ -1,7 +1,9 @@
 # basic-probability
 Matlab source code for basic probability used in information theory.
+
 Static methods are defined in a class named 'probabilityTool'. 
 Simply call a function in this class by probabilityTool.FunctionName.
+
 All methods provides default input for computation.   
 Your inputs are collected using varargin.
 
@@ -10,7 +12,9 @@ Example:
 Jointly distributed random variables X and Y are defined with a joint probability distribution pXY(x,y) = Pr(X = x, Y = y).
 Then the marginal distribution pX(x) and pY(y) can be computed by:
 [px,py] = probabilityTool.marginalize(pxy)          %pxy is the joint probability distribution pXY(x,y)
+
 or
+
 [px,py] = probabilityTool.marginalize(pxy,'r')       which returns rational number.
 
 The program also provides default values, invoking 
@@ -50,4 +54,4 @@ Notations in source code:
 
 
 
-v1.0    June 29, 2020    Initial release
+v1.0    June 28, 2020    Initial release
