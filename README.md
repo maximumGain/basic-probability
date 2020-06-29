@@ -9,8 +9,9 @@ Your inputs are collected using varargin.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Example:
-Jointly distributed random variables X and Y are defined with a joint probability distribution pXY(x,y) = Pr(X = x, Y = y).
-Then the marginal distribution pX(x) and pY(y) can be computed by:
+Jointly distributed random variables X and Y are defined with a joint probability distribution pXY(x,y) = Pr(X = x, Y = y), 
+then the marginal distribution pX(x) and pY(y) can be computed by: 
+
 [px,py] = probabilityTool.marginalize(pxy)          %pxy is the joint probability distribution pXY(x,y)
 
 or
@@ -37,7 +38,7 @@ The software provides the following functions.
 -   Use Chebyshev inequality on random vectors          @largeNumberExperiment (uses @randomSamples)
 
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 Notations in source code:
 -   px:         Pr(X = x)
